@@ -57,7 +57,7 @@ public class VisitAmazonPage {
 		System.out.println("In item amount = " + amountInItem);
 
 //		4. Before Click on Add to Cart assert price from Step3. 
-		Assert.assertEquals("Amount in item was not the same as ", amount, amountInItem);
+		Assert.assertEquals(amount, amountInItem,"Amount in item was not the same as ");
 
 //		5. Click on Add to Cart.
 		WebElement addToCart = wait
@@ -70,7 +70,7 @@ public class VisitAmazonPage {
 		System.out.println("In cart amount = " + amountInCart);
 
 //		6. Before Click on Proceed to Checkout asset price from Step3.
-		Assert.assertEquals("Amount in cart was not the same as the initial one", amount, amountInCart);
+		Assert.assertEquals(amount, amountInCart,"Amount in cart was not the same as the initial one");
 
 //		7. Click on proceed to checkout
 		WebElement proceedToCheckout = wait
