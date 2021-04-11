@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Niko" name="restDemo.GetTest" tests="1" failures="0" timestamp="11 Apr 2021 18:17:11 GMT" time="83.551" errors="0">
+  <testcase name="Get" time="83.547" classname="restDemo.GetTest"/>
+</testsuite>

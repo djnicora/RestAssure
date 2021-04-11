@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33987" started-at="2021-04-11T04:51:01Z" finished-at="2021-04-11T04:51:35Z">
+  <suite name="Default suite" duration-ms="57962" started-at="2021-04-11T18:12:28Z" finished-at="2021-04-11T18:13:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33987" started-at="2021-04-11T04:51:01Z" finished-at="2021-04-11T04:51:35Z">
-      <class name="Rest.Demo.GetTest">
-        <test-method status="PASS" signature="GetEmployees()[pri:0, instance:Rest.Demo.GetTest@1e88b3c]" name="GetEmployees" duration-ms="33975" started-at="2021-04-11T04:51:01Z" finished-at="2021-04-11T04:51:35Z">
+    <test name="Default test" duration-ms="57962" started-at="2021-04-11T18:12:28Z" finished-at="2021-04-11T18:13:26Z">
+      <class name="restDemo.GetTest">
+        <test-method status="PASS" signature="Get()[pri:0, instance:restDemo.GetTest@54c5a2ff]" name="Get" duration-ms="57950" started-at="2021-04-11T18:12:28Z" finished-at="2021-04-11T18:13:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GetEmployees -->
-      </class> <!-- Rest.Demo.GetTest -->
+        </test-method> <!-- Get -->
+      </class> <!-- restDemo.GetTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
