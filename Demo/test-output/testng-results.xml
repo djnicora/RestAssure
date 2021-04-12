@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="57962" started-at="2021-04-11T18:12:28Z" finished-at="2021-04-11T18:13:26Z">
+  <suite name="Default suite" duration-ms="17364" started-at="2021-04-12T05:56:32Z" finished-at="2021-04-12T05:56:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="57962" started-at="2021-04-11T18:12:28Z" finished-at="2021-04-11T18:13:26Z">
-      <class name="restDemo.GetTest">
-        <test-method status="PASS" signature="Get()[pri:0, instance:restDemo.GetTest@54c5a2ff]" name="Get" duration-ms="57950" started-at="2021-04-11T18:12:28Z" finished-at="2021-04-11T18:13:26Z">
+    <test name="Default test" duration-ms="17364" started-at="2021-04-12T05:56:32Z" finished-at="2021-04-12T05:56:50Z">
+      <class name="seleniumVisitAmazon.VisitAmazonPageTest">
+        <test-method status="PASS" signature="visitAmazon()[pri:0, instance:seleniumVisitAmazon.VisitAmazonPageTest@57fffcd7]" name="visitAmazon" duration-ms="17352" started-at="2021-04-12T05:56:32Z" finished-at="2021-04-12T05:56:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Get -->
-      </class> <!-- restDemo.GetTest -->
+        </test-method> <!-- visitAmazon -->
+      </class> <!-- seleniumVisitAmazon.VisitAmazonPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
