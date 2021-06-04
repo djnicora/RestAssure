@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17364" started-at="2021-04-12T05:56:32Z" finished-at="2021-04-12T05:56:50Z">
+  <suite name="Default suite" duration-ms="18313" started-at="2021-06-03T20:47:30 CDT" finished-at="2021-06-03T20:47:49 CDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17364" started-at="2021-04-12T05:56:32Z" finished-at="2021-04-12T05:56:50Z">
-      <class name="seleniumVisitAmazon.VisitAmazonPageTest">
-        <test-method status="PASS" signature="visitAmazon()[pri:0, instance:seleniumVisitAmazon.VisitAmazonPageTest@57fffcd7]" name="visitAmazon" duration-ms="17352" started-at="2021-04-12T05:56:32Z" finished-at="2021-04-12T05:56:50Z">
+    <test name="Default test" duration-ms="18313" started-at="2021-06-03T20:47:30 CDT" finished-at="2021-06-03T20:47:49 CDT">
+      <class name="restDemo.GetTest">
+        <test-method status="PASS" signature="getAndDeleteEmployee()[pri:0, instance:restDemo.GetTest@76494737]" name="getAndDeleteEmployee" duration-ms="18293" started-at="2021-06-03T20:47:30 CDT" finished-at="2021-06-03T20:47:49 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- visitAmazon -->
-      </class> <!-- seleniumVisitAmazon.VisitAmazonPageTest -->
+        </test-method> <!-- getAndDeleteEmployee -->
+      </class> <!-- restDemo.GetTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
