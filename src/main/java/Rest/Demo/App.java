@@ -50,7 +50,7 @@ public class App {
 			randomId = rand.nextInt(id.size() + 1);
 
 		} catch (Exception e) {
-			System.out.println("Exception retrying");
+			System.out.println("Exception retrying(too many requests)");
 			getEmployees();
 		}
 		return this;
@@ -63,11 +63,11 @@ public class App {
 			Response getEmployee = httpRequest.request(Method.GET, "/api/v1/employee/" + randomId);
 			JsonPath jsonPathEmployee = getEmployee.jsonPath();
 			softAssertion.assertTrue(jsonPathEmployee.get("data.id").equals(randomId), "The employee Id is incorrect");
-			System.out.println("Selected employee: " + jsonPathEmployee.get("data.employee_name").toString());
+			System.out.println("Selected Random employee: " + jsonPathEmployee.get("data.employee_name").toString());
 			System.out.println(getEmployee.asPrettyString());
 
 		} catch (Exception e) {
-			System.out.println("Exception retrying");
+			System.out.println("Exception retrying(too many requests)");
 			getEmployee();
 		}
 		return this;
@@ -83,7 +83,7 @@ public class App {
 			System.out.println(deleteEmployee.asPrettyString());
 
 		} catch (Exception e) {
-			System.out.println("Exception retrying");
+			System.out.println("Exception retrying(too many requests)");
 			deleteEmployee();
 		}
 	}
