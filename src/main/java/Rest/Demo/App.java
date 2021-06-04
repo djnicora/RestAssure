@@ -26,7 +26,7 @@ public class App {
 	}
 
 	public App setUp() {
-		RestAssured.baseURI = "http://dummy.restapiexample.com/";
+		RestAssured.baseURI = "https://dummy.restapiexample.com/";
 		httpRequest = RestAssured.with();
 		return this;
 	}
@@ -34,7 +34,7 @@ public class App {
 	public App getEmployees() {
 		try {
 //		Wait before the next call because the page returns "too many requests" 
-			Thread.sleep(5000);
+			Thread.sleep(4000);
 //		Getting all employees 
 			Response getEmployees = httpRequest.request(Method.GET, "/api/v1/employees");
 			int statusCode = getEmployees.getStatusCode();
@@ -59,7 +59,7 @@ public class App {
 	public App getEmployee() {
 		try {
 //		Wait before the next call because the page returns "too many requests" 
-			Thread.sleep(5000);
+			Thread.sleep(4000);
 			Response getEmployee = httpRequest.request(Method.GET, "/api/v1/employee/" + randomId);
 			JsonPath jsonPathEmployee = getEmployee.jsonPath();
 			softAssertion.assertTrue(jsonPathEmployee.get("data.id").equals(randomId), "The employee Id is incorrect");
@@ -76,7 +76,7 @@ public class App {
 	public void deleteEmployee() {
 		try {
 //			Wait before the next call because the page returns "too many requests" 
-			Thread.sleep(5000);
+			Thread.sleep(4000);
 			Response deleteEmployee = httpRequest.request(Method.DELETE, "/api/v1/delete/" + randomId);
 			JsonPath jsonPathdeleteEmployee = deleteEmployee.jsonPath();
 			softAssertion.assertTrue(jsonPathdeleteEmployee.get("status").equals("success"), "The status is incorrect");
